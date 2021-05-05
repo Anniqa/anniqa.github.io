@@ -1,0 +1,205 @@
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+
+header,
+main,
+footer {
+    padding: 2%;
+}
+
+nav #menu {
+    background-color: black;
+    text-align: left;
+}
+
+nav li {
+    display: inline;
+    padding-right: 1em;
+}
+
+nav ul {
+    padding: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 0.8em;
+
+}
+
+h2 {
+    font-size: 20px;
+    line-height: normal;
+}
+
+
+p {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: auto;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+main {
+    background-color: white;
+}
+
+nav #bar {
+    display: inline;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+#s1 {
+    background-color: white;
+}
+
+#s2 {
+    background-color: white;
+}
+
+#s3 {
+    background-color: white;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    height: auto;
+    background-color: white;
+}
+
+@media only screen and (min-width: 0px) {
+    #flex {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    #s1 {
+        width: 100%;
+    }
+
+    #s2 {
+        width: 100%;
+    }
+
+    #s3 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) {
+    #flex {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    #s1 {
+        width: 100%;
+    }
+
+    #s2 {
+        width: 100%;
+    }
+
+    #s3 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+    #flex {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    #s1 {
+        width: 48%;
+        margin-right: 2%;
+
+    }
+
+    #s2 {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    #s3 {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #flex {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    #s1 {
+        width: 31%;
+    }
+
+    #s2 {
+        width: 31%;
+    }
+
+    #s3 {
+        width: 34%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #flex {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    #s1 {
+        width: 31%;
+    }
+
+    #s2 {
+        width: 31%;
+    }
+
+    #s3 {
+        width: 34%;
+    }
+
+}
